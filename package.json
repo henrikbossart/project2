@@ -1,0 +1,22 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "Webside med tema \"Ting du er takknemlig for\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrikbossart/project2.git"
+  },
+  "author": "Silje, Morten, Henrik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrikbossart/project2/issues"
+  },
+  "homepage": "https://github.com/henrikbossart/project2#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
