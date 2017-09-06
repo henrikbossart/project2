@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
+var path = require('path');
 
-var $ = require('jQuery');
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.sendFile(__dirname + '/public/views/home.html');
 });
 
 app.listen(8081, function () {
