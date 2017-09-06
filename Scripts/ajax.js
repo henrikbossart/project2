@@ -1,3 +1,5 @@
+var $ = require('jQuery');
+
 // loading html with javascript and ajax
 function loadDoc(filename) {
     var xhttp = new XMLHttpRequest();
