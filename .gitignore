@@ -60,3 +60,5 @@ typings/
 # ignoring the .DS_STORE for macOS
 .DS_STORE
 
+# ignoring .idea for webstorm
+.idea
