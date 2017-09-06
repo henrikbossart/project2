@@ -1,0 +1,114 @@
+/* ALL PAGES */
+  
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  background: linear-gradient(135deg, rgb(140, 125, 112), rgb(191, 187, 186)) fixed;
+}
+
+.column {
+  padding: 10px 0;
+  text-align: center;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  background-color: rgba(64, 61, 60, 0.5);
+}
+
+.column {
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+section:nth-of-type(1) .column:nth-of-type(3) {
+	flex-grow: 2;
+	flex-shrink: 2;
+}
+
+
+/* FRONT PAGE */
+
+.front-img {
+	width: 100%;
+	opacity: 0.65;
+	filter: grayscale(100%);
+	transition: all 0.5s linear;
+}
+
+.front-text {
+	font-family: "VTKSSALGROSSO";
+
+}
+
+a.darken:hover img {
+	filter: grayscale(0%);
+	opacity: 1;
+	box-shadow: 0 2px 3px #000;
+}
+
+
+/* CONTENT PAGES */
+
+.shadow {
+  box-shadow: 0 2px 3px #000;
+}
+
+.title {
+	font-size: 32px;
+	font-family: "VTKSSALGROSSO";
+
+}
+
+.large-img {
+	width: 70%;
+}
+
+.small-img {
+	width: 60%;
+}
+
+.text {
+	padding: 40px;
+	font-family: arial;
+	font-size: 20px;
+}
+
+.text-content {
+	border: 2px solid rgba(140, 125, 112, 1);
+}
+
+blockquote {
+	font-family: "VTKSSALGROSSO";
+	font-size: 20px;
+}
+
+.return {
+	font-family: "VTKSSALGROSSO";
+	transition: all 0.3s linear
+
+}
+
+.return:visited {
+	color: black;
+}
+
+.return:hover {
+	color: rgba(66, 98, 140, 0.7);
+}
+
+
+/* FONTS */
+
+@font-face {
+	font-family: "VTKSSALGROSSO";
+	src: url(../fonts/VTKSSALGROSSO.ttf) format("truetype");
+}
