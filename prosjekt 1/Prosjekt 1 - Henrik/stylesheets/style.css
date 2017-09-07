@@ -1,5 +1,5 @@
 /* ALL PAGES */
-  
+
 html, body {
   height: 100%;
   box-sizing: border-box;
@@ -112,3 +112,6 @@ blockquote {
 	font-family: "VTKSSALGROSSO";
 	src: url(../fonts/VTKSSALGROSSO.ttf) format("truetype");
 }
+
+
+/* NEW CSS 
