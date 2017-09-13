@@ -62,3 +62,6 @@ typings/
 
 # ignoring .idea for webstorm
 .idea
+
+# ignore public folder, build with webpack
+public
