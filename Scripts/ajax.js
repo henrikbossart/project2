@@ -1,4 +1,4 @@
-var $ = require('jQuery');
+var $ = require('jquery');
 
 // loading html with javascript and ajax
 function loadDoc(filename) {
