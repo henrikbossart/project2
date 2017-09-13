@@ -18,6 +18,9 @@
   "homepage": "https://github.com/henrikbossart/project2#readme",
   "dependencies": {
     "express": "^4.15.4",
-    "jQuery": "^1.7.4"
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1"
   }
 }
