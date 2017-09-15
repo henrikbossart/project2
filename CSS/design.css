@@ -15,7 +15,7 @@
 .navigationBar{
     display: flex;
     z-index: 1;
-    background-color: rgba(255,153,153,0.5);
+    background-color: rgba(255,255,255,0.6);
     height: 35px;
 }
 
@@ -131,3 +131,56 @@ a:hover{
 }
 
 /*---------------------------------*/
+/* Basketball*/
+
+.h1 {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 330px;
+    z-index: 1;
+    color: white;
+}
+
+.image {
+    height: 600px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    z-index: -1;
+
+}
+.image img {
+    width: 100%;
+}
+
+.flex-item5 {
+    background-color: #d1d1d1;
+    margin-top: 100px;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: -1;
+}
+
+.textbox {
+  background-color: #FFFFFF;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  margin-top: 30px;
+}
+
+.text {
+  margin: 10px;
+  font-size: 15px;
+  font-family: Avenir next;
+  display: inline-block;
+}
